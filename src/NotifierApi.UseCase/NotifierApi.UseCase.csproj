@@ -16,8 +16,6 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Folder Include="Handlers\Command\" />
-	  <Folder Include="Handlers\Query\" />
 	  <Folder Include="Model\" />
 	  <Folder Include="Options\" />
 	  <Folder Include="Services\" />

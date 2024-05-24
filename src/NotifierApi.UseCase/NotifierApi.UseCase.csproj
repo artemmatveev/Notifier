@@ -16,13 +16,12 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Folder Include="Model\" />
-	  <Folder Include="Options\" />
 	  <Folder Include="Services\" />
 	</ItemGroup>
 
 	<ItemGroup>
 	  <ProjectReference Include="..\NotifierApi.Domain\NotifierApi.Domain.csproj" />
+	  <ProjectReference Include="..\TextToText.Interpreter\TextToText.Interpreter.csproj" />
 	</ItemGroup>
 
 </Project>

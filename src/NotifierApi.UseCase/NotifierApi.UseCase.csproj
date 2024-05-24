@@ -15,4 +15,16 @@
 		<PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />		
 	</ItemGroup>
 
+	<ItemGroup>
+	  <Folder Include="Handlers\Command\" />
+	  <Folder Include="Handlers\Query\" />
+	  <Folder Include="Model\" />
+	  <Folder Include="Options\" />
+	  <Folder Include="Services\" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\NotifierApi.Domain\NotifierApi.Domain.csproj" />
+	</ItemGroup>
+
 </Project>

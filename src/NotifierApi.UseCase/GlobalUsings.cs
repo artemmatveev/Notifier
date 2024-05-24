@@ -1,0 +1,13 @@
+﻿global using System.Linq.Expressions;
+global using System.Reflection;
+global using System.Text.Json;
+global using Iems.Framework.Common.Extensions;
+global using Iems.Framework.Common.Model;
+global using Iems.Framework.UseCase.Handlers;
+global using Iems.Framework.UseCase.Repository;
+global using MediatR;
+global using Microsoft.Extensions.Configuration;
+global using Microsoft.Extensions.DependencyInjection;
+global using Microsoft.Extensions.Options;
+global using NotifierApi.Domain;
+global using NotifierApi.UseCase.Repository;

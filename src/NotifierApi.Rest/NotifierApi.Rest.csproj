@@ -7,10 +7,6 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-		<Folder Include="V1\S0\" />
-	</ItemGroup>
-
-	<ItemGroup>
 		<PackageReference Include="Iems.Framework.Common" Version="1.0.6" />
 	</ItemGroup>
 

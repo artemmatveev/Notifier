@@ -19,4 +19,9 @@
 		<PackageReference Include="Iems.Framework.Result" Version="1.0.6" />
 	</ItemGroup>
 
+	<ItemGroup>
+	  <ProjectReference Include="..\NotifierApi.Rest\NotifierApi.Rest.csproj" />
+	  <ProjectReference Include="..\NotifierApi.UseCase\NotifierApi.UseCase.csproj" />
+	</ItemGroup>
+
 </Project>

@@ -1,0 +1,11 @@
+﻿global using Diakont.CryptoCore;
+global using Iems.Framework.EntityFrameworkCore.SqlServer.Extensions;
+global using Iems.Framework.EntityFrameworkCore.SqlServer.Repository;
+global using Microsoft.EntityFrameworkCore;
+global using Microsoft.Extensions.Configuration;
+global using Microsoft.Extensions.DependencyInjection;
+global using Microsoft.Extensions.Diagnostics.HealthChecks;
+global using Microsoft.Extensions.Logging;
+global using NotifierApi.DataProvider.Context;
+global using NotifierApi.Domain;
+global using NotifierApi.UseCase.Repository;

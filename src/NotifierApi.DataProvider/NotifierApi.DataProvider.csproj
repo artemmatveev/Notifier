@@ -12,4 +12,9 @@
 		<PackageReference Include="AspNetCore.HealthChecks.SqlServer" Version="7.0.0" />
 	</ItemGroup>
 
+	<ItemGroup>
+	  <ProjectReference Include="..\NotifierApi.Domain\NotifierApi.Domain.csproj" />
+	  <ProjectReference Include="..\NotifierApi.UseCase\NotifierApi.UseCase.csproj" />
+	</ItemGroup>
+
 </Project>

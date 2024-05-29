@@ -47,6 +47,11 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NotifierApi.UseCase.Tests", "tests\NotifierApi.UseCase.Tests\NotifierApi.UseCase.Tests.csproj", "{6F077BC9-9AFE-417E-8260-3AF139CD338F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "sql", "sql", "{AD0FB47D-5132-4E63-85C1-D94B5305A10F}"
+	ProjectSection(SolutionItems) = preProject
+		src\add_bitrix24_message.sql = src\add_bitrix24_message.sql
+		src\add_email_messages.sql = src\add_email_messages.sql
+		src\add_telegram_messages.sql = src\add_telegram_messages.sql
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NotifierApi.Grpc", "src\NotifierApi.Grpc\NotifierApi.Grpc.csproj", "{4CB5D60A-C99A-4ADC-8C44-C2F9EA74F01C}"
 EndProject

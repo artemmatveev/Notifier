@@ -11,4 +11,9 @@
 		<PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
 	</ItemGroup>
 
+	<ItemGroup>
+	  <ProjectReference Include="..\NotifierApi.Grpc\NotifierApi.Grpc.csproj" />
+	  <ProjectReference Include="..\NotifierApi.UseCase\NotifierApi.UseCase.csproj" />
+	</ItemGroup>
+
 </Project>

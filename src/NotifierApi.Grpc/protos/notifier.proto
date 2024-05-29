@@ -1,0 +1,21 @@
+﻿syntax = "proto3"; 
+
+option csharp_namespace = "NotifierApi.Grpc.Protos";
+package NotifierApi;
+
+service NotifierApiGrpcService
+{	
+	rpc SendNotification(SendNotificationRequest) returns (SendNotificationResponse);
+}
+
+message SendNotificationRequest
+{
+	string constant = 1;
+	string payload = 2;
+	string fromName = 3;
+}
+
+message SendNotificationResponse
+{
+	
+}

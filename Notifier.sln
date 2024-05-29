@@ -52,7 +52,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NotifierApi.Grpc", "src\Not
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NotifierApi.Grpc.Server", "src\NotifierApi.Grpc.Server\NotifierApi.Grpc.Server.csproj", "{326B2402-6F5E-42A2-991F-3171C444D8F6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextToText.Interpreter", "src\TextToText.Interpreter\TextToText.Interpreter.csproj", "{0F10FF55-3442-4106-8E01-D9A6F62F52BF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TextToText.Interpreter", "src\TextToText.Interpreter\TextToText.Interpreter.csproj", "{0F10FF55-3442-4106-8E01-D9A6F62F52BF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

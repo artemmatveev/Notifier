@@ -11,7 +11,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<PackageReference Include="Iems.Framework.UseCase" Version="1.0.28" />
+		<PackageReference Include="Micro.Framework.UseCase" Version="1.0.28" />
 		<PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />		
 	</ItemGroup>
 

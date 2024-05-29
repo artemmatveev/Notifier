@@ -7,9 +7,9 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-		<PackageReference Include="Iems.Framework.Common" Version="1.0.6" />
-		<PackageReference Include="Iems.Framework.Core" Version="1.0.5" />
-		<PackageReference Include="Iems.Framework.Domain" Version="1.0.12" />
+		<PackageReference Include="Micro.Framework.Common" Version="1.0.6" />
+		<PackageReference Include="Micro.Framework.Core" Version="1.0.5" />
+		<PackageReference Include="Micro.Framework.Domain" Version="1.0.12" />
 	</ItemGroup>
 
 </Project>

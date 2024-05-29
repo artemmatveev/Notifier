@@ -1,0 +1,21 @@
+﻿global using HealthChecks.UI.Client;
+global using Iems.Framework.Middleware;
+global using Iems.Framework.Middleware.Extensions;
+global using Iems.Framework.RabbitMq.Extentions;
+global using Iems.Framework.Rest.Extensions;
+global using Microsoft.AspNetCore.Diagnostics.HealthChecks;
+global using NotifierApi.Controllers.Extensions;
+global using NotifierApi.DataProvider.Extensions;
+global using NotifierApi.Email.Extensions;
+global using NotifierApi.Jobs.Extensions;
+global using NotifierApi.RabbitMq.Extensions;
+global using NotifierApi.Telegram.Extensions;
+global using NotifierApi.Bitrix24.Extensions;
+global using NotifierApi.UseCase.Extensions;
+global using NotifierApi.Grpc.Server.Extensions;
+global using Prometheus;
+global using Serilog;
+global using Serilog.Events;
+global using Serilog.Sinks.SystemConsole.Themes;
+global using System.Net;
+

@@ -21,4 +21,16 @@
 		<PackageReference Include="Serilog.AspNetCore" Version="7.0.0" />
 	</ItemGroup>
 
+	<ItemGroup>
+	  <ProjectReference Include="..\NotifierApi.Bitrix24\NotifierApi.Bitrix24.csproj" />
+	  <ProjectReference Include="..\NotifierApi.Controllers\NotifierApi.Controllers.csproj" />
+	  <ProjectReference Include="..\NotifierApi.DataProvider\NotifierApi.DataProvider.csproj" />
+	  <ProjectReference Include="..\NotifierApi.Email\NotifierApi.Email.csproj" />
+	  <ProjectReference Include="..\NotifierApi.Grpc.Server\NotifierApi.Grpc.Server.csproj" />
+	  <ProjectReference Include="..\NotifierApi.Jobs\NotifierApi.Jobs.csproj" />
+	  <ProjectReference Include="..\NotifierApi.RabbitMq\NotifierApi.RabbitMq.csproj" />
+	  <ProjectReference Include="..\NotifierApi.Telegram\NotifierApi.Telegram.csproj" />
+	  <ProjectReference Include="..\NotifierApi.UseCase\NotifierApi.UseCase.csproj" />
+	</ItemGroup>
+
 </Project>

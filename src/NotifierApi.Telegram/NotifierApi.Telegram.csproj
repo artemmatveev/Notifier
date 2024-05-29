@@ -14,4 +14,8 @@
 		<FrameworkReference Include="Microsoft.AspNetCore.App" />
 	</ItemGroup>
 
+	<ItemGroup>
+	  <ProjectReference Include="..\NotifierApi.UseCase\NotifierApi.UseCase.csproj" />
+	</ItemGroup>
+
 </Project>

@@ -1,0 +1,10 @@
+﻿global using AutoMapper;
+global using Iems.Framework.RabbitMq;
+global using Iems.Framework.RabbitMq.Extentions;
+global using MassTransit;
+global using MediatR;
+global using Microsoft.AspNetCore.Hosting;
+global using Microsoft.Extensions.Configuration;
+global using Microsoft.Extensions.DependencyInjection;
+global using NotifierApi.Amqp.V1.S0;
+global using Saunter.Attributes;
